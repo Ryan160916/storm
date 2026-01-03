@@ -212,8 +212,9 @@ def taifeng_jibie_he_yujing(number,a,b):
     print('='*50)
 
 if __name__ == '__main__':
-    # number=int(input('输入你的台风等级:'))
-    # a=int(input('输入你的台风降水量:'))
-    # b=int(input('输入你的台风气压:'))
-    number, a, b = 12, 200, 970 
+    number=int(input('输入你的台风等级:'))
+    a=int(input('输入你的台风降水量:'))
+    b=int(input('输入你的台风气压:'))
+    # number, a, b = 12, 200, 970 
+
     taifeng_jibie_he_yujing(number,a,b)
